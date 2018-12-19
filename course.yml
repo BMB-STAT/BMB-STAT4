@@ -1,0 +1,5 @@
+title: BMB STAT4
+description: A description of the course.
+programming_language: r
+from: 'r-base-prod:v1.0.2'
+#from: 'tidyverse-base-prod:v1.0.2'
