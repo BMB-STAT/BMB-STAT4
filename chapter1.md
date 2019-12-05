@@ -6,23 +6,6 @@ description : Introducing hypothesis testing
 
 
 
---- type:VideoExercise lang:r xp:50 skills:1 key:b6260c0853
-## Hypothesis testing
-
-
-*** =video_link
-//player.vimeo.com/video/227739062
-
-
-
---- type:VideoExercise lang:r xp:50 skills:1 key:0c94221b8b
-## Is it a fair coin?
-
-
-*** =video_link
-//player.vimeo.com/video/227743190
-
-
 
 --- type:PlainMultipleChoiceExercise lang:r xp:50 skills:1 key:e5019bee9f
 ## Is it a fair coin? (2)
@@ -46,15 +29,6 @@ Which of the following do you do when $p < \alpha$ ?
 ex() %>% check_mc(3, feedback_msgs = c("No. Since alpha is the threshold for $p$, we reject the null hypothesis when $p <$ alpha","No. Since alpha is the threshold for $p$, we reject the null hypothesis when $p <$ alpha","Yes. Since alpha is the threshold for $p$, we reject the null hypothesis when $p <$ alpha","No. Since alpha is the threshold for $p$, we reject the null hypothesis when $p <$ alpha"))
 # test_mc(correct = 3, feedback_msgs = c("No. Since alpha is the threshold for $p$, we reject the null hypothesis when $p <$ alpha","No. Since alpha is the threshold for $p$, we reject the null hypothesis when $p <$ alpha","Yes. Since alpha is the threshold for $p$, we reject the null hypothesis when $p <$ alpha","No. Since alpha is the threshold for $p$, we reject the null hypothesis when $p <$ alpha"))
 ```
-
-
-
---- type:VideoExercise lang:r xp:50 skills:1 key:f18d570d6a
-## One tail or two?
-
-
-*** =video_link
-//player.vimeo.com/video/227745553
 
 
 
@@ -85,12 +59,6 @@ ex() %>% check_mc(3)
 
 
 
---- type:VideoExercise lang:r xp:50 skills:1 key:6a1acb028b
-## The binomial test in R
-
-
-*** =video_link
-//player.vimeo.com/video/227746218
 
 --- type:NormalExercise lang:r xp:100 skills:1 key:5d094e21fe
 ## The binomial test in R (2)
@@ -133,14 +101,6 @@ ex() %>% check_function("binom.test") %>% {
 
 
 
---- type:VideoExercise lang:r xp:50 skills:1 key:18228d8d30
-## What is a p value?
-
-
-*** =video_link
-//player.vimeo.com/video/227747288
-
-
 --- type:PlainMultipleChoiceExercise lang:r xp:50 skills:1 key:e8ee19a7a2
 ## What is a p value? (2)
 
@@ -163,14 +123,6 @@ The *p* value is the probability of...
 # test_mc(correct = 3)
 ex() %>% check_mc(3)
 ```
-
-
---- type:VideoExercise lang:r xp:50 skills:1 key:4c7caf8521
-## Possible outcomes of hypothesis tests
-
-
-*** =video_link
-//player.vimeo.com/video/227749035
 
 
 
@@ -208,12 +160,7 @@ abline(v = 31, col = "red")
 # test_mc(correct = 2)
 ex() %>% check_mc(2)
 ```
---- type:VideoExercise lang:r xp:50 skills:1 key:dc0eebd374
-## Power
 
-
-*** =video_link
-//player.vimeo.com/video/227751750
 
 
 --- type:PlainMultipleChoiceExercise lang:r xp:50 skills:1 key:b06700136e
@@ -238,10 +185,3 @@ Which of the following will result in the most statistically powerful experiment
 # (correct = 3)
 ex() %>% check_mc(3)
 ```
-
---- type:VideoExercise lang:r xp:50 skills:1 key:ba89b22b24
-## Key points
-
-
-*** =video_link
-//player.vimeo.com/video/227754182
