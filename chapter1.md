@@ -13,7 +13,7 @@ xp: 100
 skills: 1
 ```
 
-You've just seen how to use the `binom.test()` function and now it's your turn.
+In the eModule you saw how to use the `binom.test()` function and now it's your turn.
 
 `@instructions`
 Perform a binomial test on the probability of getting 59 heads from 100 throws of a hypothetically fair coin.
