@@ -356,7 +356,7 @@ ex() %>% check_mc(3, feedback_msgs = c(msg1, msg2, msg3, msg4))
 
 ---
 
-## The binomial test in R (2)
+## The binomial test in R
 
 ```yaml
 type: NormalExercise
@@ -389,6 +389,54 @@ Perform a binomial test on the probability of getting 59 heads from 100 throws o
 ```{r}
 # Binomial test on 59 heads from 100 throws
 binom.test(59, 100, 0.5)
+
+```
+
+`@sct`
+```{r}
+# test_function("binom.test", args = c("x", "n", "p"))
+ex() %>% check_function("binom.test") %>% {
+  check_arg(., "x") %>% check_equal()
+  check_arg(., "n") %>% check_equal()
+  check_arg(., "p") %>% check_equal()
+}
+```
+
+---
+
+## The binomial test in R 2
+
+```yaml
+type: NormalExercise
+key: cdf251ae37
+lang: r
+xp: 100
+skills: 1
+```
+
+Now lets try with our heart attack example
+
+`@instructions`
+Perform a binomial test on the probability of 3 fatalities out of 15 heart attacks occurring at hospital X, given a fatality likelihood of 0.04.
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+# Binomial test on 3 fatalities out of 15 heart attacks
+
+```
+
+`@solution`
+```{r}
+# Binomial test on 3 fatalities out of 15 heart attacks
+binom.test(3, 15, 0.04)
 
 ```
 
