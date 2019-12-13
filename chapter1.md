@@ -13,7 +13,7 @@ xp: 100
 skills: 1
 ```
 
-In the eModule you saw how to use the `qbinom()` function and now it's your turn. We can use this to calculate the critical value of a given distribution at a specific alpha. The first argument in qbinom is the proportion of the distribution you want to cover. In the video we first calculated the critical value for a one-tailed test, using 0.05 as our alpha. 
+In the eModule you saw how to use the `qbinom()` function and now it's your turn. We can use this to calculate the critical value of a given distribution at a specific alpha. The first argument in qbinom is the proportion of the distribution you want to cover. In the video we first calculated the critical value for a one-tailed test, using 0.05 as our alpha.
 
 `@instructions`
 Calculate the critical value in our fair coin example (59 heads out of 100 tries) when we use alpha = 0.05 and we plan to perform a one tailed test.
@@ -278,7 +278,6 @@ You decide to use an alpha of 0.001 and a one-tailed test, to indicate that you 
 
 The null hypothesis is that this hospital does not suffer more fatalities from heart attacks than expected.
 The alternative hypothesis is that this hospital suffers more fatalities from heart attacks than expected.
-
 
 `@instructions`
 Calculate the critical value using an alpha of 0.001.
